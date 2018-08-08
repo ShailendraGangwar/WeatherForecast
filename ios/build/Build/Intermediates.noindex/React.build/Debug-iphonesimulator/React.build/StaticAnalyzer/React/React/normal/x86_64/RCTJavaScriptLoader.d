@@ -1,0 +1,26 @@
+dependencies: \
+  /Users/shagangw/Documents/React/OpenWeatherMap/OpenWeatherMap/node_modules/react-native/React/Base/RCTJavaScriptLoader.mm \
+  /Users/shagangw/Documents/React/OpenWeatherMap/OpenWeatherMap/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
+  /Users/shagangw/Documents/React/OpenWeatherMap/OpenWeatherMap/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/shagangw/Documents/React/OpenWeatherMap/OpenWeatherMap/ios/build/Build/Products/Debug-iphonesimulator/include/cxxreact/JSBundleType.h \
+  /Users/shagangw/Documents/React/OpenWeatherMap/OpenWeatherMap/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JavaScriptCore.h \
+  /Users/shagangw/Documents/React/OpenWeatherMap/OpenWeatherMap/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JSCWrapper.h \
+  /Users/shagangw/Documents/React/OpenWeatherMap/OpenWeatherMap/node_modules/react-native/React/Base/RCTBridge.h \
+  /Users/shagangw/Documents/React/OpenWeatherMap/OpenWeatherMap/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
+  /Users/shagangw/Documents/React/OpenWeatherMap/OpenWeatherMap/node_modules/react-native/React/Base/RCTBridgeModule.h \
+  /Users/shagangw/Documents/React/OpenWeatherMap/OpenWeatherMap/node_modules/react-native/React/Base/RCTFrameUpdate.h \
+  /Users/shagangw/Documents/React/OpenWeatherMap/OpenWeatherMap/node_modules/react-native/React/Base/RCTInvalidating.h \
+  /Users/shagangw/Documents/React/OpenWeatherMap/OpenWeatherMap/node_modules/react-native/React/Base/RCTConvert.h \
+  /Users/shagangw/Documents/React/OpenWeatherMap/OpenWeatherMap/node_modules/react-native/React/Views/RCTAnimationType.h \
+  /Users/shagangw/Documents/React/OpenWeatherMap/OpenWeatherMap/node_modules/react-native/React/Views/RCTBorderStyle.h \
+  /Users/shagangw/Documents/React/OpenWeatherMap/OpenWeatherMap/node_modules/react-native/React/Base/RCTLog.h \
+  /Users/shagangw/Documents/React/OpenWeatherMap/OpenWeatherMap/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/shagangw/Documents/React/OpenWeatherMap/OpenWeatherMap/node_modules/react-native/React/Base/RCTUtils.h \
+  /Users/shagangw/Documents/React/OpenWeatherMap/OpenWeatherMap/node_modules/react-native/React/Views/RCTPointerEvents.h \
+  /Users/shagangw/Documents/React/OpenWeatherMap/OpenWeatherMap/node_modules/react-native/React/Views/RCTTextDecorationLineType.h \
+  /Users/shagangw/Documents/React/OpenWeatherMap/OpenWeatherMap/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/shagangw/Documents/React/OpenWeatherMap/OpenWeatherMap/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/shagangw/Documents/React/OpenWeatherMap/OpenWeatherMap/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/shagangw/Documents/React/OpenWeatherMap/OpenWeatherMap/node_modules/react-native/React/Base/RCTMultipartDataTask.h \
+  /Users/shagangw/Documents/React/OpenWeatherMap/OpenWeatherMap/node_modules/react-native/React/Base/RCTMultipartStreamReader.h \
+  /Users/shagangw/Documents/React/OpenWeatherMap/OpenWeatherMap/node_modules/react-native/React/Base/RCTPerformanceLogger.h

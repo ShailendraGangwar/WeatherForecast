@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should renders 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "justifyContent": "space-between",
+      "width": "100%",
+    }
+  }
+>
+  <TextInput
+    allowFontScaling={true}
+    maxLength={6}
+    onChangeText={[Function]}
+    placeholder="Enter Zip Code (India)"
+    style={
+      Object {
+        "borderColor": "red",
+        "borderRadius": 10,
+        "borderWidth": 1,
+        "height": 30,
+        "margin": 10,
+        "padding": 5,
+        "width": "60%",
+      }
+    }
+    underlineColorAndroid="transparent"
+    value=""
+  />
+  <View
+    accessible={true}
+    isTVSelectable={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "borderColor": "red",
+        "borderRadius": 10,
+        "borderWidth": 1,
+        "height": 30,
+        "justifyContent": "center",
+        "margin": 10,
+        "opacity": 1,
+        "width": "30%",
+      }
+    }
+  >
+    <Text>
+       Search 
+    </Text>
+  </View>
+</View>
+`;

@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should renders 1`] = `
+<Text
+  style={
+    Object {
+      "alignItems": "center",
+      "color": "red",
+      "fontSize": 18,
+      "fontWeight": "bold",
+      "height": 30,
+      "justifyContent": "center",
+      "marginTop": 1,
+    }
+  }
+>
+   
+   
+</Text>
+`;

@@ -1,0 +1,36 @@
+dependencies: \
+  /Users/shagangw/Desktop/OpenWeatherMap/OpenWeatherMap/node_modules/react-native/Libraries/Text/TextInput/RCTBaseTextInputView.m \
+  /Users/shagangw/Desktop/OpenWeatherMap/OpenWeatherMap/node_modules/react-native/Libraries/Text/TextInput/RCTBaseTextInputView.h \
+  /Users/shagangw/Desktop/OpenWeatherMap/OpenWeatherMap/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTView.h \
+  /Users/shagangw/Desktop/OpenWeatherMap/OpenWeatherMap/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBorderStyle.h \
+  /Users/shagangw/Desktop/OpenWeatherMap/OpenWeatherMap/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTComponent.h \
+  /Users/shagangw/Desktop/OpenWeatherMap/OpenWeatherMap/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTPointerEvents.h \
+  /Users/shagangw/Desktop/OpenWeatherMap/OpenWeatherMap/node_modules/react-native/Libraries/Text/TextInput/RCTBackedTextInputDelegate.h \
+  /Users/shagangw/Desktop/OpenWeatherMap/OpenWeatherMap/node_modules/react-native/Libraries/Text/TextInput/RCTBackedTextInputViewProtocol.h \
+  /Users/shagangw/Desktop/OpenWeatherMap/OpenWeatherMap/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAccessibilityManager.h \
+  /Users/shagangw/Desktop/OpenWeatherMap/OpenWeatherMap/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Users/shagangw/Desktop/OpenWeatherMap/OpenWeatherMap/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Users/shagangw/Desktop/OpenWeatherMap/OpenWeatherMap/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Users/shagangw/Desktop/OpenWeatherMap/OpenWeatherMap/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/shagangw/Desktop/OpenWeatherMap/OpenWeatherMap/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/shagangw/Desktop/OpenWeatherMap/OpenWeatherMap/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Users/shagangw/Desktop/OpenWeatherMap/OpenWeatherMap/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  /Users/shagangw/Desktop/OpenWeatherMap/OpenWeatherMap/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTConvert.h \
+  /Users/shagangw/Desktop/OpenWeatherMap/OpenWeatherMap/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAnimationType.h \
+  /Users/shagangw/Desktop/OpenWeatherMap/OpenWeatherMap/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
+  /Users/shagangw/Desktop/OpenWeatherMap/OpenWeatherMap/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
+  /Users/shagangw/Desktop/OpenWeatherMap/OpenWeatherMap/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
+  /Users/shagangw/Desktop/OpenWeatherMap/OpenWeatherMap/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h \
+  /Users/shagangw/Desktop/OpenWeatherMap/OpenWeatherMap/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/shagangw/Desktop/OpenWeatherMap/OpenWeatherMap/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/shagangw/Desktop/OpenWeatherMap/OpenWeatherMap/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/shagangw/Desktop/OpenWeatherMap/OpenWeatherMap/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTEventDispatcher.h \
+  /Users/shagangw/Desktop/OpenWeatherMap/OpenWeatherMap/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUIManager.h \
+  /Users/shagangw/Desktop/OpenWeatherMap/OpenWeatherMap/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTRootView.h \
+  /Users/shagangw/Desktop/OpenWeatherMap/OpenWeatherMap/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTViewManager.h \
+  /Users/shagangw/Desktop/OpenWeatherMap/OpenWeatherMap/ios/build/Build/Products/Debug-iphonesimulator/include/React/UIView+React.h \
+  /Users/shagangw/Desktop/OpenWeatherMap/OpenWeatherMap/node_modules/react-native/Libraries/Text/TextInput/RCTInputAccessoryView.h \
+  /Users/shagangw/Desktop/OpenWeatherMap/OpenWeatherMap/node_modules/react-native/Libraries/Text/TextInput/RCTInputAccessoryViewContent.h \
+  /Users/shagangw/Desktop/OpenWeatherMap/OpenWeatherMap/node_modules/react-native/Libraries/Text/RCTTextAttributes.h \
+  /Users/shagangw/Desktop/OpenWeatherMap/OpenWeatherMap/node_modules/react-native/Libraries/Text/RCTTextTransform.h \
+  /Users/shagangw/Desktop/OpenWeatherMap/OpenWeatherMap/node_modules/react-native/Libraries/Text/TextInput/RCTTextSelection.h
