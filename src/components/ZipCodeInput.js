@@ -1,11 +1,19 @@
 import React, { Component } from "react";
-import { View, Button, StyleSheet, TextInput, TouchableOpacity, Text } from "react-native";
+import Icon from "react-native-vector-icons/MaterialIcons";
+
+import {
+  View,
+  Button,
+  StyleSheet,
+  TextInput,
+  TouchableOpacity,
+  Text
+} from "react-native";
 
 class ZipCodeInput extends Component {
   state = {
     zipCode: ""
   };
-
 
   zipCodeChangedHandler = val => {
     this.setState({
@@ -31,7 +39,7 @@ class ZipCodeInput extends Component {
           style={styles.searchButton}
           onPress={this.zipCodeSubmitHandler}
         >
-          <Text> Search </Text>
+          <Icon name="search" size={25} color="red" />
         </TouchableOpacity>
       </View>
     );
@@ -43,28 +51,33 @@ const styles = StyleSheet.create({
     width: "100%",
     flexDirection: "row",
     justifyContent: "space-between",
-    alignItems: "center"
+    alignItems: "center",
+    borderBottomColor: "#5f9ea0",
+    borderBottomWidth: StyleSheet.hairlineWidth,
+    borderTopColor: "#5f9ea0",
+    borderTopWidth: StyleSheet.hairlineWidth
   },
   zipInput: {
-    width: "60%",
+    width: "80%",
     margin: 10,
-    borderColor: 'red',
-    borderWidth: 1,
-    height: 30,
-    borderRadius: 10,
+    borderColor: "red",
+    borderBottomWidth: 1,
+    height: 35,
     padding: 5
   },
   searchButton: {
-    width: "30%",
-    borderRadius: 10,
-    borderColor: 'red',
-    borderWidth: 1,
-    height: 30,
+    width: 35,
+    height: 35,
     alignItems: "center",
     justifyContent: "center",
     margin: 10,
     backgroundColor: "#63c0e8",
-
+    shadowColor: "grey", // IOS
+    shadowOffset: { height: 1, width: 1 }, // IOS
+    shadowOpacity: 2, // IOS
+    shadowRadius: 2, //IOS
+    elevation: 2, // Android
+    position: "relative"
   }
 });
 

@@ -1,15 +1,15 @@
 dependencies: \
-  /Users/shagangw/Documents/React/OpenWeatherMap/OpenWeatherMap/node_modules/react-native/React/Base/RCTLog.mm \
-  /Users/shagangw/Documents/React/OpenWeatherMap/OpenWeatherMap/node_modules/react-native/React/Base/RCTLog.h \
-  /Users/shagangw/Documents/React/OpenWeatherMap/OpenWeatherMap/node_modules/react-native/React/Base/RCTAssert.h \
-  /Users/shagangw/Documents/React/OpenWeatherMap/OpenWeatherMap/node_modules/react-native/React/Base/RCTDefines.h \
-  /Users/shagangw/Documents/React/OpenWeatherMap/OpenWeatherMap/node_modules/react-native/React/Base/RCTUtils.h \
-  /Users/shagangw/Documents/React/OpenWeatherMap/OpenWeatherMap/node_modules/react-native/React/Base/RCTBridge+Private.h \
-  /Users/shagangw/Documents/React/OpenWeatherMap/OpenWeatherMap/node_modules/react-native/React/Base/RCTBridge.h \
-  /Users/shagangw/Documents/React/OpenWeatherMap/OpenWeatherMap/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
-  /Users/shagangw/Documents/React/OpenWeatherMap/OpenWeatherMap/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
-  /Users/shagangw/Documents/React/OpenWeatherMap/OpenWeatherMap/node_modules/react-native/React/Base/RCTBridgeModule.h \
-  /Users/shagangw/Documents/React/OpenWeatherMap/OpenWeatherMap/node_modules/react-native/React/Base/RCTFrameUpdate.h \
-  /Users/shagangw/Documents/React/OpenWeatherMap/OpenWeatherMap/node_modules/react-native/React/Base/RCTInvalidating.h \
-  /Users/shagangw/Documents/React/OpenWeatherMap/OpenWeatherMap/node_modules/react-native/React/Modules/RCTRedBox.h \
-  /Users/shagangw/Documents/React/OpenWeatherMap/OpenWeatherMap/node_modules/react-native/React/Base/RCTErrorCustomizer.h
+  /Users/shagangw/Desktop/OpenWeatherMap/OpenWeatherMap/node_modules/react-native/React/Base/RCTLog.mm \
+  /Users/shagangw/Desktop/OpenWeatherMap/OpenWeatherMap/node_modules/react-native/React/Base/RCTLog.h \
+  /Users/shagangw/Desktop/OpenWeatherMap/OpenWeatherMap/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/shagangw/Desktop/OpenWeatherMap/OpenWeatherMap/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/shagangw/Desktop/OpenWeatherMap/OpenWeatherMap/node_modules/react-native/React/Base/RCTUtils.h \
+  /Users/shagangw/Desktop/OpenWeatherMap/OpenWeatherMap/node_modules/react-native/React/Base/RCTBridge+Private.h \
+  /Users/shagangw/Desktop/OpenWeatherMap/OpenWeatherMap/node_modules/react-native/React/Base/RCTBridge.h \
+  /Users/shagangw/Desktop/OpenWeatherMap/OpenWeatherMap/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
+  /Users/shagangw/Desktop/OpenWeatherMap/OpenWeatherMap/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
+  /Users/shagangw/Desktop/OpenWeatherMap/OpenWeatherMap/node_modules/react-native/React/Base/RCTBridgeModule.h \
+  /Users/shagangw/Desktop/OpenWeatherMap/OpenWeatherMap/node_modules/react-native/React/Base/RCTFrameUpdate.h \
+  /Users/shagangw/Desktop/OpenWeatherMap/OpenWeatherMap/node_modules/react-native/React/Base/RCTInvalidating.h \
+  /Users/shagangw/Desktop/OpenWeatherMap/OpenWeatherMap/node_modules/react-native/React/Modules/RCTRedBox.h \
+  /Users/shagangw/Desktop/OpenWeatherMap/OpenWeatherMap/node_modules/react-native/React/Base/RCTErrorCustomizer.h

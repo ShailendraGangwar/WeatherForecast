@@ -5,19 +5,10 @@ import WeatherContainer from "./WeatherContainer";
 const weatherList = props => {
   return (
     <SectionList
-      //horizontal={true}
+      showsVerticalScrollIndicator={false}
       keyExtractor={(item, index) => item + index}
       sections={props.weatherData}
-      renderItem={({ item }) => (
-        <WeatherContainer
-          currentDate={item.dt_txt.slice(11)}
-          currentWeather={item.weather[0].description}
-          currentWeatherMinTemp={item.main.temp_min}
-          currentWeatherMaxTemp={item.main.temp_max}
-          currentWeatherIcon={item.weather[0].icon}
-          currentWeatherHumidity={item.main.humidity}
-        />
-      )}
+      renderItem={({ item }) => <WeatherContainer currentWeather={item} />}
       renderSectionHeader={({ section }) => (
         <View style={styles.sectionHeader}>
           <Text style={styles.header}>{section.key}</Text>
@@ -30,13 +21,20 @@ const weatherList = props => {
 const styles = StyleSheet.create({
   header: {
     fontWeight: "bold",
-    textAlign: "center"
+    textAlign: "center",
+    color: "#334045"
   },
   sectionHeader: {
-    height: 30,
+    height: 35,
     flex: 1,
     backgroundColor: "#63c0e8",
     justifyContent: "center",
+    shadowColor: "grey", // IOS
+    shadowOffset: { height: 1, width: 1 }, // IOS
+    shadowOpacity: 2, // IOS
+    shadowRadius: 2, //IOS
+    elevation: 2, // Android
+    position: "relative"
   }
 });
 

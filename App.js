@@ -19,6 +19,9 @@ export class App extends Component {
     Alert.alert(capitalizedText(errorMessage));
   };
   getWeatherFromApiAsync = async zipCode => {
+    if (zipCode === '') {
+      return
+    };
     this.setState({
       isLoading: true
     });
@@ -68,7 +71,7 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: "#9fd7ef",
     alignItems: "center",
-    justifyContent: "flex-start"
+    justifyContent: "flex-start",
   },
   textHeader: {
     marginTop: 30,
@@ -76,7 +79,8 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     alignItems: "center",
     justifyContent: "center",
-    fontSize: 18
+    fontSize: 18,
+    color: 'black'
   }
 });
 

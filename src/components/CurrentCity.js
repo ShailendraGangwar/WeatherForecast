@@ -9,7 +9,7 @@ const CurrentCity = props => {
 
 const styles = StyleSheet.create({
   city: {
-    marginTop: 1,
+    margin: 5,
     height: 30,
     fontWeight: 'bold',
     alignItems: "center",

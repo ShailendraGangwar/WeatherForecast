@@ -6,7 +6,7 @@
 	<dict>
 		<key>Base.lproj/LaunchScreen.nib</key>
 		<data>
-		+X89OdiVSPLromb0TgZLAJdYP1o=
+		URGnm6Kk1Fi5apB45bTzgLYWpAs=
 		</data>
 		<key>Entypo.ttf</key>
 		<data>
@@ -119,7 +119,7 @@
 		</data>
 		<key>PlugIns/OpenWeatherMapTests.xctest/OpenWeatherMapTests</key>
 		<data>
-		NYVGkyuZ0pRTmRzCxeI0zy103vc=
+		AizzBwuU6U0Cf6mr65bVZM5HkCs=
 		</data>
 		<key>PlugIns/OpenWeatherMapTests.xctest/_CodeSignature/CodeResources</key>
 		<data>
@@ -140,11 +140,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+X89OdiVSPLromb0TgZLAJdYP1o=
+			URGnm6Kk1Fi5apB45bTzgLYWpAs=
 			</data>
 			<key>hash2</key>
 			<data>
-			7H2JX8iMfwGBC2cKVE6637ByWAihtF92FUGf9fkdujs=
+			uw+JCNSWi68xOXs6rnSII/OIhe4MunDvahfxa0wQP2k=
 			</data>
 		</dict>
 		<key>Entypo.ttf</key>
@@ -417,11 +417,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			NYVGkyuZ0pRTmRzCxeI0zy103vc=
+			AizzBwuU6U0Cf6mr65bVZM5HkCs=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZbrBaQGAdrmhTETdANeP/rKCXP2fTHjT/PYkLF+Chgw=
+			GUyARR/noiG4akYZscTs+1XxDhLV3jVzx0AEL76F4U0=
 			</data>
 		</dict>
 		<key>PlugIns/OpenWeatherMapTests.xctest/_CodeSignature/CodeResources</key>

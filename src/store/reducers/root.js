@@ -25,7 +25,7 @@ export const parseWeatherData = (responseJson) => {
                 var dateKey = new Date(itemIn.dt_txt.slice(0, 10)).toDateString()
                 testWeatherDataArr = testWeatherDataArr.concat({
                     key: dateKey,
-                    data: currentDayWeather
+                    data:[currentDayWeather]
                 })
             }
         }
