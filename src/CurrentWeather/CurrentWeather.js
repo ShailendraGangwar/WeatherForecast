@@ -5,7 +5,8 @@ import FadeInView from "./../components/FadeInView";
 import WeatherItem from "./../components/WeatherItem";
 import CurrentCity from "./../components/CurrentCity";
 import Icon from "react-native-vector-icons/MaterialIcons";
-
+import DropIcon from "react-native-vector-icons/SimpleLineIcons";
+import WindIcon from "react-native-vector-icons/Feather";
 class CurrentWeather extends Component {
   static navigatorStyle = {
     navBarBackgroundColor: "#c3e6f5", // change the background color of the nav bar (remembered across pushes)
@@ -44,39 +45,62 @@ class CurrentWeather extends Component {
 
   displayJsxMessage() {
     if (this.state.currentWeather !== null) {
-      return <Image
-      style={styles.weatherIcon}
-      source={{
-        uri: `https://openweathermap.org/img/w/${
-          this.state.currentWeather.weather[0].icon
-        }.png`
-      }}
-    />;
+      return (
+        <Image
+          style={styles.weatherIcon}
+          source={{
+            uri: `https://openweathermap.org/img/w/${
+              this.state.currentWeather.weather[0].icon
+            }.png`
+          }}
+        />
+      );
     }
   }
 
   displayJsxCurrentWeatherDetail() {
     if (this.state.currentWeather !== null) {
-      return <View style={styles.subContainer}>
-      <Text numberOfLines={1} style={styles.weatherDetail}>
-        {this.state.currentWeather.weather[0].description}
-      </Text>
-      <View style={styles.tempContainer}>
-        <Icon name="arrow-drop-down" size={30} color="red" />
-        <Text style={styles.weatherDetailTempMinMax}>
-          {this.state.currentWeather.main.temp_min.toFixed(1)}˚C
-        </Text>
-        <Icon name="arrow-drop-up" size={30} color="red" />
-        <Text style={styles.weatherDetailTempMinMax}>
-          {this.state.currentWeather.main.temp_max.toFixed(1)}˚C
-        </Text>
-      </View>
-    </View>
+      return (
+        <View style={styles.subContainer}>
+          <Text numberOfLines={1} style={styles.weatherDetail}>
+            {this.state.currentWeather.weather[0].description}
+          </Text>
+          <View style={styles.tempContainer}>
+            <Icon name="arrow-drop-down" size={30} color="red" />
+            <Text style={styles.weatherDetailTempMinMax}>
+              {this.state.currentWeather.main.temp_min.toFixed(1)}
+              ˚C
+            </Text>
+            <Icon name="arrow-drop-up" size={30} color="red" />
+            <Text style={styles.weatherDetailTempMinMax}>
+              {this.state.currentWeather.main.temp_max.toFixed(1)}
+              ˚C
+            </Text>
+          </View>
+        </View>
+      );
     }
   }
   displayJsxCity() {
     if (this.state.currentWeather !== null) {
       return <CurrentCity city={this.state.currentWeather.name} />;
+    }
+  }
+  displayJsxHumidityNdWind() {
+    if (this.state.currentWeather !== null) {
+      return (
+        <View style={styles.humidityContainer}>
+          <DropIcon name="drop" size={13} color="red" />
+          <Text style={styles.weatherDetailTemp}>
+            {this.state.currentWeather.main.humidity}%
+          </Text>
+          <WindIcon name="wind" size={13} color="red" />
+          <Text style={styles.weatherDetailTemp}>
+            {this.state.currentWeather.wind.speed}
+            m/s
+          </Text>
+        </View>
+      );
     }
   }
   render() {
@@ -87,6 +111,8 @@ class CurrentWeather extends Component {
           {this.displayJsxCity()}
           {this.displayJsxMessage()}
           {this.displayJsxCurrentWeatherDetail()}
+          {this.displayJsxHumidityNdWind() }
+
         </FadeInView>
       </View>
     );
@@ -101,9 +127,9 @@ const styles = StyleSheet.create({
     justifyContent: "flex-start"
   },
   weatherIcon: {
-    width: 70,
-    height: 70,
-    resizeMode: "cover"
+    width: 100,
+    height: 100,
+    resizeMode: "cover",
   },
   subContainer: {
     width: "100%",
@@ -149,15 +175,14 @@ const styles = StyleSheet.create({
     textAlign: "center",
     margin: 2,
     paddingLeft: 5,
-    fontSize: 14,
+    fontSize: 20,
     textTransform: "capitalize" //iOS
   },
   weatherDetailTempMinMax: {
     color: "black",
     textAlign: "center",
     fontSize: 13,
-    height: 18,
-   
+    height: 18
   },
   weatherIcon: {
     width: 60,
