@@ -4,7 +4,7 @@ import ZipCodeInput from "./../components/ZipCodeInput";
 import FadeInView from "./../components/FadeInView";
 import WeatherItem from "./../components/WeatherItem";
 import CurrentCity from "./../components/CurrentCity";
-import Icon from "react-native-vector-icons/MaterialIcons";
+import Icon from "react-native-vector-icons/Octicons";
 import DropIcon from "react-native-vector-icons/SimpleLineIcons";
 import WindIcon from "react-native-vector-icons/Feather";
 class CurrentWeather extends Component {
@@ -66,12 +66,12 @@ class CurrentWeather extends Component {
             {this.state.currentWeather.weather[0].description}
           </Text>
           <View style={styles.tempContainer}>
-            <Icon name="arrow-drop-down" size={30} color="red" />
+            <Icon name="triangle-up" size={30} color="red"/>
             <Text style={styles.weatherDetailTempMinMax}>
               {this.state.currentWeather.main.temp_min.toFixed(1)}
               ˚C
             </Text>
-            <Icon name="arrow-drop-up" size={30} color="red" />
+            <Icon name="triangle-down" size={30} color="red" />
             <Text style={styles.weatherDetailTempMinMax}>
               {this.state.currentWeather.main.temp_max.toFixed(1)}
               ˚C
@@ -90,11 +90,11 @@ class CurrentWeather extends Component {
     if (this.state.currentWeather !== null) {
       return (
         <View style={styles.humidityContainer}>
-          <DropIcon name="drop" size={13} color="red" />
+          <DropIcon name="drop" size={30} color="red" />
           <Text style={styles.weatherDetailTemp}>
             {this.state.currentWeather.main.humidity}%
           </Text>
-          <WindIcon name="wind" size={13} color="red" />
+          <WindIcon name="wind" size={30} color="red" />
           <Text style={styles.weatherDetailTemp}>
             {this.state.currentWeather.wind.speed}
             m/s
@@ -111,8 +111,7 @@ class CurrentWeather extends Component {
           {this.displayJsxCity()}
           {this.displayJsxMessage()}
           {this.displayJsxCurrentWeatherDetail()}
-          {this.displayJsxHumidityNdWind() }
-
+          {this.displayJsxHumidityNdWind()}
         </FadeInView>
       </View>
     );
@@ -127,13 +126,13 @@ const styles = StyleSheet.create({
     justifyContent: "flex-start"
   },
   weatherIcon: {
-    width: 100,
-    height: 100,
-    resizeMode: "cover",
+    width: 120,
+    height: 120,
+    resizeMode: "cover"
   },
   subContainer: {
     width: "100%",
-    backgroundColor: "#93d2ed",
+    // backgroundColor: "#93d2ed",
     flexDirection: "column",
     justifyContent: "space-evenly",
     alignItems: "center"
@@ -144,7 +143,8 @@ const styles = StyleSheet.create({
     alignItems: "center"
   },
   tempContainer: {
-    backgroundColor: "#93d2ed",
+    marginTop: 20,
+    // backgroundColor: "#93d2ed",
     flexDirection: "row",
     justifyContent: "center",
     alignItems: "center"
@@ -181,21 +181,17 @@ const styles = StyleSheet.create({
   weatherDetailTempMinMax: {
     color: "black",
     textAlign: "center",
-    fontSize: 13,
-    height: 18
-  },
-  weatherIcon: {
-    width: 60,
-    height: 60,
-    resizeMode: "cover"
+    fontSize: 18,
+    height: 29,
+    margin: 5
   },
   weatherDetailTemp: {
     color: "black",
-    fontSize: 13,
+    fontSize: 18,
     fontFamily: "Arial",
     textAlign: "center",
-    margin: 5,
-    height: 18
+    margin: 5
+    // height: 18
   }
 });
 
