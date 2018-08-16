@@ -1,14 +1,7 @@
 import React, { Component } from "react";
 import Icon from "react-native-vector-icons/MaterialIcons";
 
-import {
-  View,
-  Button,
-  StyleSheet,
-  TextInput,
-  TouchableOpacity,
-  Text
-} from "react-native";
+import { View, StyleSheet, TextInput, TouchableOpacity } from "react-native";
 
 class ZipCodeInput extends Component {
   state = {

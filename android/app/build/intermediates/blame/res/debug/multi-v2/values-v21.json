@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/shagangw/Desktop/OpenWeatherMap/OpenWeatherMap/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml",
+            "outputFile": "/Users/shagangw/Documents/GitHub/WeatherForecast/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml",
             "map": [
                 {
                     "source": "/Users/shagangw/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/3bab1d1cb060e7adc594e9dbf41ce954/res/values-v21/values-v21.xml",
@@ -20,6 +20,25 @@
                         "endLines": "2,3,4,5,279,280,287,291,297,302",
                         "endColumns": "103,63,66,63,115,125,125,127,12,12",
                         "endOffsets": "154,218,285,349,20562,20688,21145,21441,21780,22118"
+                    }
+                },
+                {
+                    "source": "/Users/shagangw/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/7d7260d0d692e9e6db15ade3e6428365/res/values-v21/values-v21.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "248"
+                    },
+                    "to": {
+                        "startLines": "303",
+                        "startColumns": "4",
+                        "startOffsets": "22123",
+                        "endLines": "305",
+                        "endColumns": "12",
+                        "endOffsets": "22316"
                     }
                 },
                 {

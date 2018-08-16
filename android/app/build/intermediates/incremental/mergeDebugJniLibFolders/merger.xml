@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/Users/shagangw/Desktop/OpenWeatherMap/OpenWeatherMap/android/app/src/main/jniLibs"/></dataSet><dataSet config="debug"><source path="/Users/shagangw/Desktop/OpenWeatherMap/OpenWeatherMap/android/app/src/debug/jniLibs"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/Users/shagangw/Documents/GitHub/WeatherForecast/android/app/src/main/jniLibs"/></dataSet><dataSet config="debug"><source path="/Users/shagangw/Documents/GitHub/WeatherForecast/android/app/src/debug/jniLibs"/></dataSet></merger>

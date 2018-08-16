@@ -1,4 +1,4 @@
 dependencies: \
-  /Users/shagangw/Desktop/OpenWeatherMap/OpenWeatherMap/node_modules/react-native/React/Base/RCTMultipartDataTask.m \
-  /Users/shagangw/Desktop/OpenWeatherMap/OpenWeatherMap/node_modules/react-native/React/Base/RCTMultipartDataTask.h \
-  /Users/shagangw/Desktop/OpenWeatherMap/OpenWeatherMap/node_modules/react-native/React/Base/RCTMultipartStreamReader.h
+  /Users/shagangw/Documents/GitHub/WeatherForecast/node_modules/react-native/React/Base/RCTMultipartDataTask.m \
+  /Users/shagangw/Documents/GitHub/WeatherForecast/node_modules/react-native/React/Base/RCTMultipartDataTask.h \
+  /Users/shagangw/Documents/GitHub/WeatherForecast/node_modules/react-native/React/Base/RCTMultipartStreamReader.h

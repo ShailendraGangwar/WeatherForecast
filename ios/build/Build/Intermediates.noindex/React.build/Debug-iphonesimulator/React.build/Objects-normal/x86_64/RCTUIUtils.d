@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/shagangw/Desktop/OpenWeatherMap/OpenWeatherMap/node_modules/react-native/React/UIUtils/RCTUIUtils.m \
-  /Users/shagangw/Desktop/OpenWeatherMap/OpenWeatherMap/node_modules/react-native/React/UIUtils/RCTUIUtils.h
+  /Users/shagangw/Documents/GitHub/WeatherForecast/node_modules/react-native/React/UIUtils/RCTUIUtils.m \
+  /Users/shagangw/Documents/GitHub/WeatherForecast/node_modules/react-native/React/UIUtils/RCTUIUtils.h
