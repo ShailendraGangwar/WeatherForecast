@@ -14,6 +14,9 @@ class AuthScreen extends Component {
   render() {
     return (
       <View style={styles.container}>
+       <Text style={styles.textHeader}>
+          Get weather details using zipcode.
+        </Text>
         <Text style={styles.textHeader}>
           Please click below to get weather forecast
         </Text>
@@ -35,9 +38,9 @@ const styles = StyleSheet.create({
     justifyContent: "flex-start"
   },
   textHeader: {
-    marginTop: 30,
+    marginTop: 50,
     width: "80%",
-    fontWeight: "bold",
+    //fontWeight: "bold",
     alignItems: "center",
     justifyContent: "center",
     fontSize: 18,
@@ -46,10 +49,10 @@ const styles = StyleSheet.create({
   },
   searchButton: {
     width: 80,
-    height: 35,
+    height: 30,
     alignItems: "center",
     justifyContent: "center",
-    margin: 20,
+    marginTop: 40,
     backgroundColor: "#63c0e8",
     shadowColor: "grey", // IOS
     shadowOffset: { height: 1, width: 1 }, // IOS

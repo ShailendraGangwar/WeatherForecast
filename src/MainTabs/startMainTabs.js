@@ -10,16 +10,16 @@ const startTabs = () => {
     Navigation.startTabBasedApp({
       tabs: [
         {
-          screen: "weatherforecast.WeatherByZipCode",
-          label: "Weather Forecast",
-          title: "Weather Forecast",
-          icon: sources[0]
-        },
-        {
           screen: "weatherforecast.CurrentWeather",
           label: "Current Weather",
           title: "Current Weather",
           icon: sources[1]
+        },
+        {
+          screen: "weatherforecast.WeatherByZipCode",
+          label: "Weather Forecast",
+          title: "Weather Forecast",
+          icon: sources[0]
         }
       ],
       tabsStyle: {

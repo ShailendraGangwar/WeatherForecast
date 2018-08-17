@@ -24,7 +24,7 @@ export class WeatherByZipCode extends Component {
   }
 
   showAlert = errorMessage => {
-    Alert.alert(capitalizedText(errorMessage));
+    Alert.alert('Something went wrong',capitalizedText(errorMessage));
   };
   getWeatherFromApiAsync = async zipCode => {
     if (zipCode === "") {

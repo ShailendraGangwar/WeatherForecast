@@ -1,12 +1,13 @@
 import React, { Component } from "react";
-import { View, Text, StyleSheet, Image, FlatList } from "react-native";
+import { View, Text, StyleSheet, Image, Alert } from "react-native";
 import ZipCodeInput from "./../components/ZipCodeInput";
 import FadeInView from "./../components/FadeInView";
-import WeatherItem from "./../components/WeatherItem";
 import CurrentCity from "./../components/CurrentCity";
 import Icon from "react-native-vector-icons/Octicons";
 import DropIcon from "react-native-vector-icons/SimpleLineIcons";
 import WindIcon from "react-native-vector-icons/Feather";
+import { capitalizedText } from "./../util/UtilMethods";
+
 class CurrentWeather extends Component {
   static navigatorStyle = {
     navBarBackgroundColor: "#c3e6f5", // change the background color of the nav bar (remembered across pushes)
@@ -19,6 +20,11 @@ class CurrentWeather extends Component {
       currentWeather: null
     };
   }
+
+  showAlert = errorMessage => {
+    Alert.alert('Something went wrong',capitalizedText(errorMessage));
+  };
+
   getCurrentWeatherFromApiAsync = async zipCode => {
     if (zipCode === "") {
       return;
@@ -30,10 +36,14 @@ class CurrentWeather extends Component {
     return fetch(currentWeatherUrl)
       .then(response => response.json())
       .then(responseJson => {
-        this.setState({
-          currentWeather: responseJson,
-          isLoading: false
-        });
+        if (responseJson.cod === 200) {
+          this.setState({
+            currentWeather: responseJson,
+            isLoading: false
+          });
+        } else {
+          this.showAlert(responseJson.message);
+        }
       })
       .catch(error => {
         console.error(error);
@@ -66,7 +76,7 @@ class CurrentWeather extends Component {
             {this.state.currentWeather.weather[0].description}
           </Text>
           <View style={styles.tempContainer}>
-            <Icon name="triangle-up" size={30} color="red"/>
+            <Icon name="triangle-up" size={30} color="red" />
             <Text style={styles.weatherDetailTempMinMax}>
               {this.state.currentWeather.main.temp_min.toFixed(1)}
               ˚C
@@ -126,13 +136,14 @@ const styles = StyleSheet.create({
     justifyContent: "flex-start"
   },
   weatherIcon: {
-    width: 120,
-    height: 120,
+    width: 100,
+    height: 100,
     resizeMode: "cover"
   },
   subContainer: {
     width: "100%",
     // backgroundColor: "#93d2ed",
+    marginTop: 20,
     flexDirection: "column",
     justifyContent: "space-evenly",
     alignItems: "center"
